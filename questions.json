@@ -1,27 +1,87 @@
 [
   {
-  question: "Inside which HTML element do we put the JavaScript??",
-  choice1: "<script>",
-  choice2: "<javascript>",
-  choice3: "<js>",
-  choice4: "<scripting>",
+  question: "What is the Capital of Nigeria",
+  choice1: "Abuja",
+  choice2: "Lagos",
+  choice3: "Accra",
+  choice4: "Dakar",
   answer: 1
   },
   {
   question:
-    "What is the correct syntax for referring to an external script called 'xxx.js'?",
-  choice1: "<script href='xxx.js'>",
-  choice2: "<script name='xxx.js'>",
-  choice3: "<script src='xxx.js'>",
-  choice4: "<script file='xxx.js'>",
+    "What is the Capital of Ethiopia",
+  choice1: "Addis Ababa",
+  choice2: "Niger",
+  choice3: "Djibouti",
+  choice4: "Nairobi",
+  answer: 1
+  },
+  {
+  question: "What is the Capital of Cameroun",
+  choice1: "Abuja",
+  choice2: "Lagos",
+  choice3: "Accra",
+  choice4: "Yaounde",
+  answer: 4
+  },
+  {
+  question:
+    "What is the Capital of Algeria",
+  choice1: "Addis Ababa",
+  choice2: "Algiers",
+  choice3: "Djibouti",
+  choice4: "Nairobi",
+  answer: 2
+  },
+  {
+  question: "What is the Capital of Chad",
+  choice1: "N'Djamena",
+  choice2: "Lagos",
+  choice3: "Accra",
+  choice4: "Dakar",
+  answer: 1
+  },
+  {
+  question:
+    "What is the Capital of Egypt",
+  choice1: "Addis Ababa",
+  choice2: "Cairo",
+  choice3: "Djibouti",
+  choice4: "Nairobi",
+  answer: 2
+  },
+  {
+  question: "What is the Capital of Cape Verde",
+  choice1: "Abuja",
+  choice2: "Lagos",
+  choice3: "Praia",
+  choice4: "Dakar",
   answer: 3
   },
   {
-  question: " How do you write 'Hello World' in an alert box?",
-  choice1: "msgBox('Hello World');",
-  choice2: "alertBox('Hello World');",
-  choice3: "msg('Hello World');",
-  choice4: "alert('Hello World');",
+  question:
+    "What is the Capital Eritrea",
+  choice1: "Addis Ababa",
+  choice2: "Niger",
+  choice3: "Djibouti",
+  choice4: "Asmara",
+  answer: 4
+  },
+  {
+  question: "What is the Capital of Gabon",
+  choice1: "Abuja",
+  choice2: "Lagos",
+  choice3: "Accra",
+  choice4: "Libreville",
+  answer: 4
+  },
+  {
+  question:
+    "What is the Capital of Kenya",
+  choice1: "Addis Ababa",
+  choice2: "Algiers",
+  choice3: "Djibouti",
+  choice4: "Nairobi",
   answer: 4
   }
 ]
