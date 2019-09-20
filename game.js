@@ -9,20 +9,106 @@ let score = 0;
 let questionCounter = 0;
 let availableQuesions = [];
 
-let questions = [];
+let questions = [
+  {
+  question: "What is the Capital of Nigeria",
+  choice1: "Abuja",
+  choice2: "Lagos",
+  choice3: "Accra",
+  choice4: "Dakar",
+  answer: 1
+  },
+  {
+  question:
+    "What is the Capital of Ethiopia",
+  choice1: "Addis Ababa",
+  choice2: "Niger",
+  choice3: "Djibouti",
+  choice4: "Nairobi",
+  answer: 1
+  },
+  {
+  question: "What is the Capital of Cameroun",
+  choice1: "Abuja",
+  choice2: "Lagos",
+  choice3: "Accra",
+  choice4: "Yaounde",
+  answer: 4
+  },
+  {
+  question:
+    "What is the Capital of Algeria",
+  choice1: "Addis Ababa",
+  choice2: "Algiers",
+  choice3: "Djibouti",
+  choice4: "Nairobi",
+  answer: 2
+  },
+  {
+  question: "What is the Capital of Chad",
+  choice1: "N'Djamena",
+  choice2: "Lagos",
+  choice3: "Accra",
+  choice4: "Dakar",
+  answer: 1
+  },
+  {
+  question:
+    "What is the Capital of Egypt",
+  choice1: "Addis Ababa",
+  choice2: "Cairo",
+  choice3: "Djibouti",
+  choice4: "Nairobi",
+  answer: 2
+  },
+  {
+  question: "What is the Capital of Cape Verde",
+  choice1: "Abuja",
+  choice2: "Lagos",
+  choice3: "Praia",
+  choice4: "Dakar",
+  answer: 3
+  },
+  {
+  question:
+    "What is the Capital Eritrea",
+  choice1: "Addis Ababa",
+  choice2: "Niger",
+  choice3: "Djibouti",
+  choice4: "Asmara",
+  answer: 4
+  },
+  {
+  question: "What is the Capital of Gabon",
+  choice1: "Abuja",
+  choice2: "Lagos",
+  choice3: "Accra",
+  choice4: "Libreville",
+  answer: 4
+  },
+  {
+  question:
+    "What is the Capital of Kenya",
+  choice1: "Addis Ababa",
+  choice2: "Algiers",
+  choice3: "Djibouti",
+  choice4: "Nairobi",
+  answer: 4
+  }
+];
 
-fetch("questions.json")
-  .then(res => {
-    return res.json();
-  })
-  .then(loadedQuestions => {
-    console.log(loadedQuestions);
-    questions = loadedQuestions;
-    startGame();
-  })
-  .catch(err => {
-    console.error(err);
-  });
+// fetch("questions.json")
+//   .then(res => {
+//     return res.json();
+//   })
+//   .then(loadedQuestions => {
+//     console.log(loadedQuestions);
+//     questions = loadedQuestions;
+//     startGame();
+//   })
+//   .catch(err => {
+//     console.error(err);
+//   });
 
 //CONSTANTS
 const CORRECT_BONUS = 10;
